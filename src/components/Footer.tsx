@@ -18,7 +18,6 @@ export default function Footer() {
         </div>
 
                 {/* Links Section */}
-                <div className="flex flex-col items-center gap-6 sm:gap-12 mt-6 sm:mt-0">
           <div>
             <p>
               Поддержка:{" "}
@@ -30,7 +29,6 @@ export default function Footer() {
               </a>
             </p>
           </div>
-          
           <div className="flex flex-col sm:flex-row items-center gap-6 sm:gap-12">
             <span className="hidden sm:inline">•</span>
             <a
@@ -39,14 +37,16 @@ export default function Footer() {
             >
               Telegram-канал
             </a>
+          </div>
+          <div className="flex flex-col sm:flex-row items-center gap-6 sm:gap-12">
+            <span className="hidden sm:inline">•</span>
             <a
-              href="/privacy-policy"
+              href="https://t.me/runxapp_bot"
               className="hover:text-[#E1FF01] transition"
             >
-              Политика конфиденциальности
+              RunX Bot
             </a>
           </div>
-        </div>
                 <div className="text-center mt-6">
         <p>© {new Date().getFullYear()} RunX</p>
       </div>
