@@ -5,7 +5,7 @@ import Image from "next/image";
 export default function Header() {
   return (
     <header className="w-full py-6 text-white sticky top-0 z-50">
-      <div className="container flex items-center justify-between">
+      <div className="container pl-[24px] pr-[24px] flex items-center justify-between">
         
         {/* Logo */}
         <Link href="/" className="flex items-center gap-3">
