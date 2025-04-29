@@ -4,7 +4,7 @@ import Image from "next/image";
 export default function Footer() {
   return (
     <footer className="w-full py-12 bg-[#0E0E10] text-[#9FA6B2] text-sm px-6 mt-[40px] pb-[40px]">
-      <div className="container flex items-center justify-between text-center sm:text-left">
+      <div className="container  pl-[24px] pr-[24px] flex items-center justify-between text-center sm:text-left">
 
         {/* Logo Section */}
         <div className="flex items-center gap-4">
